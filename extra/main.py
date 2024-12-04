@@ -6,7 +6,7 @@ col_2.subheader("Ваш новый взгляд на моду и комфорт 
 co, column, c = st.columns([1,1,1])
 
 col, coll, colll = st.columns(3)
-coll.image("https://github.com/zarina-0-0/relife/tree/master/materials/relife/materials/mir_white-Photoroom.png")
+coll.image("materials/mir_white-Photoroom.png")
 
 with st.container(height=480):
     st.subheader(":blue[**Re**]**Life** – это не просто зеркало, это ваш личный помощник в мире моды и технологий")
