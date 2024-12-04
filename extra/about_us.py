@@ -3,7 +3,7 @@ import streamlit as st
 col, coll, colll = st.columns([1,2,1])
 coll.title(":violet[Re]Life's mission")
 col1, col2 = st.columns([10,10])
-col1.image("./materials/athome-Photoroom.png")
+col1.image("materials/athome-Photoroom.png")
 col2.subheader(":violet[Проблема]")
 col2.markdown("Подорожание товаров second-hand и resale")
 col2.subheader(":violet[Целевая аудитория]")
