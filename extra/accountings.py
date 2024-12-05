@@ -49,6 +49,7 @@ ax2.pie(pdf["ИТОГО (руб.)"], labels=pdf["Должность"], autopct='
 ax2.axis('equal')
 ax2.set_title("Распределение заработной платы")
 
+
 fig3, ax3 = plt.subplots()
 ax3.pie(edf['Размер сокращения, %'], labels=edf["Категория"], autopct='%1.1f%%', startangle=90)
 ax3.axis('equal')
@@ -65,6 +66,7 @@ st.pyplot(fig2)
 
 _1, _2, _3 = st.columns([1, 15, 1])
 _2.dataframe(edf)
+st.markdown("Круговая диаграмма показывает процентное соотношение экономии по категории на общую сумму экономии.")
 st.pyplot(fig3)
-
+st.subheader("Обоснование сокращений")
 
