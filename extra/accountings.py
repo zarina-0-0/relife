@@ -59,9 +59,11 @@ ax3.set_title("Сокращение затрат")
 st.write("### Затраты и зарплаты компании")
 col1, col2, col3 = st.columns([1, 7, 1])
 col2.dataframe(df)
+st.markdown(":blue[**Общая сумма затрат: 2 160 000 руб.**]")
 st.pyplot(fig1)
 col_1, col_2, col_3 = st.columns([1, 15, 1])
 col_2.dataframe(pdf)
+
 st.pyplot(fig2)
 
 _1, _2, _3 = st.columns([1, 15, 1])
