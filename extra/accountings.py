@@ -50,9 +50,9 @@ ax2.axis('equal')
 ax2.set_title("Распределение заработной платы")
 
 fig3, ax3 = plt.subplots()
-ax3.pie(df['Размер сокращения'], labels=df["Категория"], autopct='%1.1f%%', startangle=90)
+ax3.pie(edf['Размер сокращения'], labels=edf["Категория"], autopct='%1.1f%%', startangle=90)
 ax3.axis('equal')
-ax3.set_title("Сокращегие затрат")
+ax3.set_title("Сокращение затрат")
 
 
 st.write("### Затраты и зарплаты компании")
