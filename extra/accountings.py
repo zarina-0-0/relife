@@ -63,7 +63,7 @@ st.markdown(":blue[**Общая сумма затрат: 2 160 000 руб.**]")
 st.pyplot(fig1)
 col_1, col_2, col_3 = st.columns([1, 15, 1])
 col_2.dataframe(pdf)
-
+st.markdown(":blue[**Общая сумма затрат: 640 000 руб.**]")
 st.pyplot(fig2)
 
 _1, _2, _3 = st.columns([1, 15, 1])
