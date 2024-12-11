@@ -90,3 +90,10 @@ __2.subheader("Цены на которые мы ориентировались:
 st.markdown("[Касса:](https://online-kassa.ru/kupit/cat/kassy/)")
 st.markdown("[Аренда помещений:](https://spb.cian.ru/cat.php?currency=2&deal_type=rent&engine_version=2&maxprice=105000&offer_type=offices&office_type%5B0%5D=1&region=2)")
 st.markdown("[Зеркала:](https://ultratrade.ru/products/ymnoe-zerkalo-s-sensornum-ekranom-yousmart-rectangular-smart-touch-screen-mirror-600x1600mm-3100-60160-u-/?srsltid=AfmBOoraDUNNU7Bi0vAQdYxh5EB4CjhYR8DXO6Kqng0kXI4vLR6h4tgS)")
+
+__2.subheader("Зарплаты на которые мы ориентировались:")
+st.markdown("[Директор:](https://spb.hh.ru/vacancies/direktor)")
+st.markdown("[Разработчик:](https://spb.hh.ru/vacancies/razrabotchik)")
+st.markdown("[Аналитик:](https://spb.hh.ru/vacancies/analitik)")
+st.markdown("[Маркетолог:](https://spb.hh.ru/vacancies/marketolog)")
+st.markdown("[SMM:](https://spb.hh.ru/search/vacancy?text=smm&salary=&ored_clusters=true&area=2&hhtmFrom=vacancy_search_list&hhtmFromLabel=vacancy_search_line )")
