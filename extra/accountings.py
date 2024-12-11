@@ -25,7 +25,7 @@ econ = {
 
 once = {
     "Категория": ["Госпошлина за регистрацию ООО", "Приобретение и установка онлайн кассы", "Разработка AR приложения", "Закупка оборудования(камеры, датчики)", "Регистрация товарного знака"],
-    "Затраты, тыс. руб.": [4000, '20000-40000', '500000-2000000', 500000, 50000]
+    "Затраты, тыс. руб.": [4, '20-40', '500-2000', 500, 50]
 }
 
 # Создание DataFrame
@@ -88,3 +88,5 @@ __2.subheader("Единоразовые затраты")
 __2.dataframe(dfo)
 __2.subheader("Цены на которые мы ориентировались:")
 st.markdown("Касса:link[https://online-kassa.ru/kupit/cat/kassy/]")
+st.markdown("Аренда помещений:link[https://spb.cian.ru/cat.php?currency=2&deal_type=rent&engine_version=2&maxprice=105000&offer_type=offices&office_type%5B0%5D=1&region=2 ]")
+st.markdown("Зеркала:link[https://ultratrade.ru/products/ymnoe-zerkalo-s-sensornum-ekranom-yousmart-rectangular-smart-touch-screen-mirror-600x1600mm-3100-60160-u-/?srsltid=AfmBOoraDUNNU7Bi0vAQdYxh5EB4CjhYR8DXO6Kqng0kXI4vLR6h4tgS]")
